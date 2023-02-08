@@ -1,0 +1,22 @@
+main .list-group-item img {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+main .list-group-item:hover {
+  outline: 4px solid #ffdb4d;
+  z-index: 1;
+}
+
+main .album-img {
+  height: 100%;
+  width: 100%;
+}
+
+main .play-button {
+  transition: 200ms;
+}
+
+main .play-button:active {
+  transform: scale(0.9);
+}

@@ -1,0 +1,26 @@
+header .logo-text {
+  font-size: 24px;
+  height: 40px;
+  font-weight: 800;
+}
+
+header .nav-link {
+  color: black;
+  border-bottom: solid 3px white;
+}
+header .nav-link:hover {
+  color: red;
+}
+header .nav-link:focus {
+  color: red;
+  border-bottom: solid 3px red;
+}
+
+input[type="search"] {
+  border: none;
+}
+
+header .plus-badge {
+  padding: 7px 10px;
+  background: linear-gradient(101.67deg,#48cce0 7.24%,#505add 34.12%,#be40c0 62.93%,#fba82b 92.22%);
+}

@@ -1,0 +1,4 @@
+.card:hover {
+  outline: solid 5px #ffdb4d;
+  z-index: 1;
+} 

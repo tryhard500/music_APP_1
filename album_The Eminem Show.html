@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/album.css">
+  <link rel="stylesheet" href="css/header.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="js/index.js" defer></script>
+</head>
+
+
+<body>
+
+  <header class="p-3 border-bottom container border-dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
+            <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+            <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+            <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+            <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+          <div class="logo-text me-3 ms-3">Музыка</div>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2">Главная</a></li>
+          <li><a href="#" class="nav-link px-2">Подкасты и книги</a></li>
+          <li><a href="#" class="nav-link px-2">Детям</a></li>
+          <li><a href="#" class="nav-link px-2">Потоки</a></li>
+          <li><a href="#" class="nav-link px-2">Коллекция</a></li>
+        </ul>
+        
+        <div>
+        </div>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 me-lg-auto ms-1">
+          <input type="search" class="form-control" placeholder="Поиск..." aria-label="Search">
+        </form>
+        
+        <span class="plus-badge badge rounded-pill bg-secondary me-4">ПЛЮС</span>
+        <div class="dropdown text-end">
+          <a href="#" class="d-block link-dark text-decoration-none" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="https://github.com/mdo.png" alt="mdo" width="48" height="48" class="rounded-circle">
+          </a>
+          <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="#">Профиль</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Выйти</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <div class="row mt-5 d-flex">
+
+      <div class="col-xl-8 p-3 flex-grow-1">
+
+        <div class="card mb-3">
+          <div class="row">
+            <div class="col-xl-4 col-md">
+              <img src="assets/The Eminem Show.png" class="img-fluid rounded-start album-img" >
+            </div>
+            <div class="col-xl-8 col-md">
+              <div class="card-body">
+                <h5 class="card-title">
+                  The Eminem Show
+                </h5>
+                <p class="card-text">
+                  The Eminem Show — четвёртый студийный альбом американского рэпера Эминема и его первый сольный альбом, изданный на собственном лейбле Shady Records в 2002 году. Создавая этот альбом, Эминем пытался избавиться от скандалов, которые преследовали его в начале карьеры
+                </p>
+                <p class="card-text"><small class="text-muted">Альбом выпущен 26 мая 2002 г.</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-xl-4 p-3 flex-grow-1">
+        <ol class="list-group">
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>Curtains Up <span class="text-muted">SKIT</span></div>
+              <div class="text-muted">Eminem</div>
+            </div>
+            <div class="ms-auto">0:30</div>
+          </li>
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>White America</div>
+              <div class="text-muted">EminemJeff, BassLuis, Resto</div>
+            </div>
+            <div class="ms-auto">5:24</div>
+          </li>
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>Business</div>
+              <div class="text-muted">Dr. Dre</div>
+            </div>
+            <div class="ms-auto">4:11</div>
+          </li>
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>Cleanin' Out My Closet</div>
+              <div class="text-muted">Eminem, Bass</div>
+            </div>
+            <div class="ms-auto">4:57</div>
+          </li>
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>Square Dance</div>
+              <div class="text-muted">Eminem, Bass</div>
+            </div>
+            <div class="ms-auto">5:23</div>
+          </li>
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>The Kiss <span class="text-muted">SKIT</span></div>
+              <div class="text-muted">Eminem</div>
+            </div>
+            <div class="ms-auto">1:15</div>
+          </li>
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>Soldier</div>
+              <div class="text-muted">Eminem</div>
+            </div>
+            <div class="ms-auto">3:46</div>
+          </li>
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>Say Goodbye Hollywood</div>
+              <div class="text-muted">Eminem</div>
+            </div>
+            <div class="ms-auto">4:32</div>
+          </li>
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>Drips</div>
+              <div class="text-muted">Eminem, Bass</div>
+            </div>
+            <div class="ms-auto">4:45</div>
+          </li>
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>Without Me</div>
+              <div class="text-muted">Eminem, Bass</div>
+            </div>
+            <div class="ms-auto">4:50</div>
+          </li>
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>Paul Rosenberg <span class="text-muted">SKIT</span></div>
+              <div class="text-muted">Eminem, Dr. Dre</div>
+            </div>
+            <div class="ms-auto">0:22</div>
+          </li>
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>Sing for the Moment</div>
+              <div class="text-muted">Eminem, Bass</div>
+            </div>
+            <div class="ms-auto">5:39</div>
+          </li>
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>Superman</div>
+              <div class="text-muted">Eminem, Bass</div>
+            </div>
+            <div class="ms-auto">5:50</div>
+          </li>
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>Hailie's Song</div>
+              <div class="text-muted">Eminem</div>
+            </div>
+            <div class="ms-auto">5:20</div>
+          </li>
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>Steve Berman <span class="text-muted">SKIT</span></div>
+              <div class="text-muted">Dr. Dre</div>
+            </div>
+            <div class="ms-auto">0:33</div>
+          </li>
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>When the Music Stops</div>
+              <div class="text-muted">Eminem, Mr. Porter</div>
+            </div>
+            <div class="ms-auto">4:29</div>
+          </li>
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>Say What You Say</div>
+              <div class="text-muted">Dr. Dre</div>
+            </div>
+            <div class="ms-auto">5:09</div>
+          </li>
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>'Till I Collapse</div>
+              <div class="text-muted">Eminem</div>
+            </div>
+            <div class="ms-auto">4:57</div>
+          </li>
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>My Dad's Gone Crazy</div>
+              <div class="text-muted">Dr. Dre</div>
+            </div>
+            <div class="ms-auto">4:27</div>
+          </li>
+
+          <li class="list-group-item d-flex align-item-center">
+            <img src="assets/play_icon.png" class="me-3 play-button" height="38">
+            <div>
+              <div>Curtains Close <span class="text-muted">SKIT</span></div>
+              <div class="text-muted">Eminem</div>
+            </div>
+            <div class="ms-auto">1:01</div>
+          </li>
+        </ol>
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer class="py-3 my-4">
+    <p class="text-center text-muted">© 2023 Басков Никита</p>
+  
+  </footer>
+
+</body>
+
+</html>
