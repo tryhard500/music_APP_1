@@ -1,4 +1,9 @@
-.card:hover {
+main .card:hover {
   outline: solid 5px #ffdb4d;
   z-index: 1;
-} 
+}
+
+main .card-image-top {
+  border-top-right-radius: 0.300rem;
+  border-top-left-radius: 0.300rem;
+}

@@ -9,8 +9,8 @@ main .list-group-item:hover {
 }
 
 main .album-img {
-  height: 100%;
-  width: 100%;
+  min-height: 100%;
+  min-height: 100%;
 }
 
 main .play-button {

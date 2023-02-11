@@ -9,12 +9,12 @@
   <title>Главная</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/album.css">
   <link rel="stylesheet" href="css/header.css">
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   <script src="js/data.js" defer></script>
-  <script src="js/index.js" defer></script>
+  <script src="js/album.js" defer></script>
 </head>
 
 
@@ -23,7 +23,7 @@
   <header class="p-3 border-bottom container border-dark">
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+        <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
             <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
             <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
@@ -64,16 +64,29 @@
 
   <main class="container">
 
-    <h1 class="my-5">Eminem</h1>
-    
-    <div class="albums row row-cols-2 row-cols-lg-4 gy-4">
-      <!--Место для альбомов-->
+    <div class="row mt-5 row-cols-1 row-cols-md-2">
+
+      <div class="col">
+
+        <div class="card mb-3 album">
+          <!--Карточка альбома-->
+        </div>
+
+      </div>
+
+      <div class="col">
+        <ol class="list-group playlist">
+          <!--Место для треков-->
+        </ol>
+      </div>
+
     </div>
 
   </main>
 
   <footer class="py-3 my-4">
     <p class="text-center text-muted">© 2023 Басков Никита</p>
+  
   </footer>
 
 </body>
