@@ -20,3 +20,12 @@ main .play-button {
 main .play-button:active {
   transform: scale(0.9);
 }
+
+main .title {
+  width: 40%;
+}
+
+main .progress {
+  width: 100%;
+  margin: auto 10px;
+}
